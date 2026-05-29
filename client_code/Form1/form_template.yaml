@@ -32,11 +32,11 @@ components:
       type: Label
     - layout_properties: {grid_position: 'WVPVBW,UJPUIX ABQDFH,PQQOCJ'}
       name: label_4
-      properties: {align: center, text: Username}
+      properties: {align: center, background: 'theme:On Primary', text: Username}
       type: Label
     - layout_properties: {grid_position: 'WVPVBW,UJPUIX SJHCDY,BPRRKO'}
       name: label_5
-      properties: {align: center, text: Password}
+      properties: {align: center, background: 'theme:On Primary', text: Password}
       type: Label
     - layout_properties: {grid_position: 'WVPVBW,TGXOZW PQWIEC,HHILLM'}
       name: username_box
@@ -49,7 +49,7 @@ components:
     - event_bindings: {click: login_button}
       layout_properties: {grid_position: 'FZEOBD,OGQTBR'}
       name: login_button
-      properties: {background: 'theme:Primary Container', text: LOGIN}
+      properties: {background: 'theme:On Primary', text: LOGIN}
       type: Button
     - layout_properties: {grid_position: 'MBDPPW,CFPISW'}
       name: label_6
@@ -58,7 +58,7 @@ components:
     - event_bindings: {click: exit_button}
       layout_properties: {grid_position: 'CLLNYQ,ZOEJXB'}
       name: exit_button
-      properties: {background: 'theme:Primary Container', text: EXIT APP}
+      properties: {background: 'theme:On Primary', text: EXIT APP}
       type: Button
     layout_properties: {grid_position: 'DFJCRT,XEDCWH'}
     name: column_panel_1
@@ -72,7 +72,7 @@ components:
     - event_bindings: {}
       layout_properties: {grid_position: 'DMAZMQ,OIAKBW'}
       name: back_1
-      properties: {align: right, text: Back to menu}
+      properties: {align: right, background: 'theme:Secondary Container', text: Back to menu}
       type: Button
     - layout_properties: {grid_position: 'EBVLDK,JKFCSG'}
       name: label_8
@@ -98,7 +98,7 @@ components:
     - layout_properties: {grid_position: 'DJDCPI,WRDSAY'}
       name: view_score_board_button
       properties:
-        align: right
+        align: full
         background: theme:Secondary Container
         spacing:
           padding: [null, null, null, null]
@@ -106,19 +106,19 @@ components:
       type: Button
     - layout_properties: {grid_position: 'ZGYMUH,NXBJIU'}
       name: edit_teams_button
-      properties: {align: right, background: 'theme:Primary Container', text: EDIT TEAMS}
+      properties: {align: full, background: 'theme:Primary Container', text: EDIT TEAMS}
       type: Button
     - layout_properties: {grid_position: 'KADHVR,SUPXDX'}
       name: update_score_button
-      properties: {align: right, background: 'theme:Secondary Container', text: UPDATE SCORE}
+      properties: {align: full, background: 'theme:Secondary Container', text: UPDATE SCORE}
       type: Button
     - layout_properties: {grid_position: 'TKKXJQ,HUIUFS'}
       name: team_stats_button
-      properties: {align: right, background: 'theme:Primary Container', text: TEAM STATS}
+      properties: {align: full, background: 'theme:Primary Container', text: TEAM STATS}
       type: Button
     - layout_properties: {grid_position: 'UUKFIR,WKKSQO'}
       name: exit_app_button
-      properties: {align: right, background: 'theme:Secondary Container', text: EXIT APP}
+      properties: {align: full, background: 'theme:Secondary Container', text: EXIT APP}
       type: Button
     layout_properties: {grid_position: 'JKASQH,PUAMTJ'}
     name: column_panel_2
@@ -131,7 +131,7 @@ components:
       type: Label
     - layout_properties: {grid_position: 'QXKXGU,IQPGFR'}
       name: back_2
-      properties: {align: right, text: Back to menu}
+      properties: {align: right, background: 'theme:On Primary', text: Back to menu}
       type: Button
     - layout_properties: {grid_position: 'ASKFDQ,WTTUUL'}
       name: label_11
@@ -148,7 +148,7 @@ components:
     - components:
       - layout_properties: {grid_position: 'CGQYWM,MORCAY'}
         name: label_12
-        properties: {text: HOME TEAM}
+        properties: {background: 'theme:Tertiary', text: HOME TEAM}
         type: Label
       - layout_properties: {grid_position: 'HOLUOJ,LGBCVM'}
         name: home_box
@@ -177,7 +177,7 @@ components:
     - components:
       - layout_properties: {grid_position: 'QSNRHY,VXNNYF'}
         name: label_13
-        properties: {text: AWAY TEAM}
+        properties: {background: 'theme:Tertiary', text: AWAY TEAM}
         type: Label
       layout_properties: {grid_position: 'WCVMFG,HSMRGP SMQLVB,EWQDES'}
       name: column_panel_5
@@ -211,6 +211,7 @@ components:
       name: label_18
       properties:
         align: center
+        background: theme:On Secondary
         bold: true
         font: ITALIC
         font_size: 30
@@ -222,15 +223,15 @@ components:
     - components:
       - layout_properties: {grid_position: 'BNVVYB,FYRHNO'}
         name: label_19
-        properties: {align: center, bold: true, text: HOME TEAM}
+        properties: {align: center, background: 'theme:On Primary', bold: true, text: HOME TEAM}
         type: Label
       - layout_properties: {grid_position: 'PCSOLD,FQYZHX'}
         name: plus_home_button
-        properties: {align: center, text: '+1'}
+        properties: {align: center, background: 'theme:On Primary', text: '+1'}
         type: Button
       - layout_properties: {grid_position: 'RPVSLC,BOYDEQ'}
         name: min_home_button
-        properties: {align: center, text: '-1'}
+        properties: {align: center, background: 'theme:On Primary', text: '-1'}
         type: Button
       layout_properties: {grid_position: 'ZIFNZP,UNOFDE'}
       name: column_panel_6
@@ -247,15 +248,15 @@ components:
     - components:
       - layout_properties: {grid_position: 'MPWGAO,OSDGJP'}
         name: label_20
-        properties: {align: center, text: AWAY TEAM}
+        properties: {align: center, background: 'theme:On Primary', text: AWAY TEAM}
         type: Label
       - layout_properties: {grid_position: 'KXQNDB,XBHANJ'}
         name: plus_away_button
-        properties: {align: center, text: '+1'}
+        properties: {align: center, background: 'theme:On Primary', text: '+1'}
         type: Button
       - layout_properties: {grid_position: 'QCOWXT,HXYYZC'}
         name: min_away_button
-        properties: {align: center, text: '-1'}
+        properties: {align: center, background: 'theme:On Primary', text: '-1'}
         type: Button
       layout_properties: {grid_position: 'ZIFNZP,XZZAVT'}
       name: column_panel_7
@@ -273,11 +274,16 @@ components:
     - components:
       - layout_properties: {grid_position: 'LZVBHT,YMYBNS'}
         name: back_3
-        properties: {align: right, text: Back to menu}
+        properties:
+          align: right
+          background: theme:On Primary
+          spacing:
+            padding: [null, 35, null, null]
+          text: Back to menu
         type: Button
       - layout_properties: {grid_position: 'LYCZBL,YIXJRA'}
         name: label_24
-        properties: {text: 'EDIT TEAM NAMES '}
+        properties: {align: center, background: 'theme:On Primary', text: 'EDIT TEAM NAMES '}
         type: Label
       - layout_properties: {grid_position: 'ULQGRB,JCBBIA NLZSKW,XSMSMP'}
         name: label_25
@@ -305,7 +311,7 @@ components:
         type: Button
       - layout_properties: {grid_position: 'CPTIJL,GLYPEE'}
         name: label_27
-        properties: {text: TEAM STATS (Custom Statistic)}
+        properties: {align: center, background: 'theme:On Primary', text: TEAM STATS (Custom Statistic)}
         type: Label
       - layout_properties: {grid_position: 'NXUTXZ,AYUUUM UCFKFW,IGCEJE'}
         name: label_28
@@ -333,7 +339,7 @@ components:
         type: Button
       - layout_properties: {grid_position: 'QTZXDY,WKBODY'}
         name: reset_button
-        properties: {text: RESET ALL DATA}
+        properties: {background: 'theme:On Primary', text: RESET ALL DATA}
         type: Button
       layout_properties: {grid_position: ''}
       name: column_panel_9
