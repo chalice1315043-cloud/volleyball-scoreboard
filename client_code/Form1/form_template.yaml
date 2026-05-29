@@ -1,8 +1,351 @@
 components:
-- components: []
+- components:
+  - components:
+    - layout_properties: {grid_position: 'UNYWTQ,VRVFEG'}
+      name: label_1
+      properties: {align: center, bold: true, font_size: 50, italic: false, text: VOLLEYBALL SCOREBOARD}
+      type: Label
+    - layout_properties: {grid_position: 'VAQQMT,UQTXXM'}
+      name: image_1
+      properties: {height: 76.234375, source: _/theme/Screen Shot 2026-05-29 at 19.23.29.png}
+      type: Image
+    - layout_properties: {grid_position: 'XAFVFL,NDVEVT'}
+      name: label_2
+      properties:
+        align: center
+        bold: true
+        font: ITALIC
+        font_size: 30
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: WELCOME
+      type: Label
+    - layout_properties: {grid_position: 'BWEYJV,ZOJOGO'}
+      name: label_3
+      properties:
+        align: center
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Please sign in to continue
+      type: Label
+    - layout_properties: {grid_position: 'WVPVBW,UJPUIX ABQDFH,PQQOCJ'}
+      name: label_4
+      properties: {align: center, text: Username}
+      type: Label
+    - layout_properties: {grid_position: 'WVPVBW,UJPUIX SJHCDY,BPRRKO'}
+      name: label_5
+      properties: {align: center, text: Password}
+      type: Label
+    - layout_properties: {grid_position: 'WVPVBW,TGXOZW PQWIEC,HHILLM'}
+      name: username_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'WVPVBW,TGXOZW OXXQCH,LKYGOO'}
+      name: password_box
+      properties: {}
+      type: TextBox
+    - event_bindings: {click: login_button}
+      layout_properties: {grid_position: 'FZEOBD,OGQTBR'}
+      name: login_button
+      properties: {background: 'theme:Primary Container', text: LOGIN}
+      type: Button
+    - layout_properties: {grid_position: 'MBDPPW,CFPISW'}
+      name: label_6
+      properties: {align: center, text: ────────────────── OR ──────────────────}
+      type: Label
+    - event_bindings: {click: exit_button}
+      layout_properties: {grid_position: 'CLLNYQ,ZOEJXB'}
+      name: exit_button
+      properties: {background: 'theme:Primary Container', text: EXIT APP}
+      type: Button
+    layout_properties: {grid_position: 'DFJCRT,XEDCWH'}
+    name: column_panel_1
+    properties: {background: 'theme:Primary Container'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'ICZZVT,YMRWIO'}
+      name: label_7
+      properties: {align: center, bold: true, font_size: 50, italic: false, text: VOLLEYBALL SCOREBOARD}
+      type: Label
+    - event_bindings: {}
+      layout_properties: {grid_position: 'DMAZMQ,OIAKBW'}
+      name: back_1
+      properties: {align: right, text: Back to menu}
+      type: Button
+    - layout_properties: {grid_position: 'EBVLDK,JKFCSG'}
+      name: label_8
+      properties:
+        align: center
+        bold: true
+        font: ITALIC
+        font_size: 30
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: MAIN MENU
+      type: Label
+    - layout_properties: {grid_position: 'GHTQSM,POABHD'}
+      name: label_9
+      properties:
+        align: center
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: Select an option below
+      type: Label
+    - layout_properties: {grid_position: 'DJDCPI,WRDSAY'}
+      name: view_score_board_button
+      properties:
+        align: right
+        background: theme:Secondary Container
+        spacing:
+          padding: [null, null, null, null]
+        text: VIEW SCORE BOARD
+      type: Button
+    - layout_properties: {grid_position: 'ZGYMUH,NXBJIU'}
+      name: edit_teams_button
+      properties: {align: right, background: 'theme:Primary Container', text: EDIT TEAMS}
+      type: Button
+    - layout_properties: {grid_position: 'KADHVR,SUPXDX'}
+      name: update_score_button
+      properties: {align: right, background: 'theme:Secondary Container', text: UPDATE SCORE}
+      type: Button
+    - layout_properties: {grid_position: 'TKKXJQ,HUIUFS'}
+      name: team_stats_button
+      properties: {align: right, background: 'theme:Primary Container', text: TEAM STATS}
+      type: Button
+    - layout_properties: {grid_position: 'UUKFIR,WKKSQO'}
+      name: exit_app_button
+      properties: {align: right, background: 'theme:Secondary Container', text: EXIT APP}
+      type: Button
+    layout_properties: {grid_position: 'JKASQH,PUAMTJ'}
+    name: column_panel_2
+    properties: {background: 'theme:On Tertiary'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: 'FJUVOJ,VDMPHG'}
+      name: label_10
+      properties: {align: center, bold: true, font_size: 50, italic: false, text: VOLLEYBALL SCOREBOARD}
+      type: Label
+    - layout_properties: {grid_position: 'QXKXGU,IQPGFR'}
+      name: back_2
+      properties: {align: right, text: Back to menu}
+      type: Button
+    - layout_properties: {grid_position: 'ASKFDQ,WTTUUL'}
+      name: label_11
+      properties:
+        align: center
+        bold: true
+        font: ITALIC
+        font_size: 30
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: SCORE BOARD
+      type: Label
+    - components:
+      - layout_properties: {grid_position: 'CGQYWM,MORCAY'}
+        name: label_12
+        properties: {text: HOME TEAM}
+        type: Label
+      - layout_properties: {grid_position: 'HOLUOJ,LGBCVM'}
+        name: home_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'UNXDUN,XNIIJT'}
+        name: label_14
+        properties: {text: POINTS}
+        type: Label
+      - layout_properties: {grid_position: 'LITLBC,NJFOXB'}
+        name: home_point_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'UGNMJB,PKUJBN'}
+        name: label_16
+        properties: {text: SET WON}
+        type: Label
+      - layout_properties: {grid_position: 'AFOXRO,PZTBIO'}
+        name: home_set_won_box
+        properties: {}
+        type: TextBox
+      layout_properties: {grid_position: 'WCVMFG,EFLGEC'}
+      name: column_panel_4
+      properties: {}
+      type: ColumnPanel
+    - components:
+      - layout_properties: {grid_position: 'QSNRHY,VXNNYF'}
+        name: label_13
+        properties: {text: AWAY TEAM}
+        type: Label
+      layout_properties: {grid_position: 'WCVMFG,HSMRGP SMQLVB,EWQDES'}
+      name: column_panel_5
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'WCVMFG,HSMRGP SSSAIX,MWOPCC'}
+      name: away_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'WCVMFG,HSMRGP HFQVPF,QBBMNT'}
+      name: label_15
+      properties: {text: POINTS}
+      type: Label
+    - layout_properties: {grid_position: 'WCVMFG,HSMRGP YCRZLM,DCFINL'}
+      name: away_point_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'WCVMFG,HSMRGP ZDAUER,IXXYXH'}
+      name: label_17
+      properties: {text: SET WON}
+      type: Label
+    - layout_properties: {grid_position: 'WCVMFG,HSMRGP TQKSFD,NBOXIK'}
+      name: away_set_won_box
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'UTXXXB,LIGFVV'}
+      name: spacer_1
+      properties: {height: 15.25}
+      type: Spacer
+    - layout_properties: {grid_position: 'FEXTXX,FUJPMB'}
+      name: label_18
+      properties:
+        align: center
+        bold: true
+        font: ITALIC
+        font_size: 30
+        spacing:
+          margin: ['0', null, '0', null]
+          padding: ['0', null, '0', null]
+        text: UPDATE SCORE
+      type: Label
+    - components:
+      - layout_properties: {grid_position: 'BNVVYB,FYRHNO'}
+        name: label_19
+        properties: {align: center, bold: true, text: HOME TEAM}
+        type: Label
+      - layout_properties: {grid_position: 'PCSOLD,FQYZHX'}
+        name: plus_home_button
+        properties: {align: center, text: '+1'}
+        type: Button
+      - layout_properties: {grid_position: 'RPVSLC,BOYDEQ'}
+        name: min_home_button
+        properties: {align: center, text: '-1'}
+        type: Button
+      layout_properties: {grid_position: 'ZIFNZP,UNOFDE'}
+      name: column_panel_6
+      properties: {}
+      type: ColumnPanel
+    - layout_properties: {grid_position: 'ZIFNZP,KGIRQW'}
+      name: label_21
+      properties: {align: center, text: 'When a team reaches 25 points, they win the set.'}
+      type: Label
+    - layout_properties: {grid_position: 'ZIFNZP,KGIRQW NXCZCQ,MREKNC'}
+      name: label_22
+      properties: {align: center, text: Sets won increases vy 1 and points reset to 0}
+      type: Label
+    - components:
+      - layout_properties: {grid_position: 'MPWGAO,OSDGJP'}
+        name: label_20
+        properties: {align: center, text: AWAY TEAM}
+        type: Label
+      - layout_properties: {grid_position: 'KXQNDB,XBHANJ'}
+        name: plus_away_button
+        properties: {align: center, text: '+1'}
+        type: Button
+      - layout_properties: {grid_position: 'QCOWXT,HXYYZC'}
+        name: min_away_button
+        properties: {align: center, text: '-1'}
+        type: Button
+      layout_properties: {grid_position: 'ZIFNZP,XZZAVT'}
+      name: column_panel_7
+      properties: {}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'SXZMPU,ENQUCD'}
+    name: column_panel_3
+    properties: {background: '#ffdbdb'}
+    type: ColumnPanel
+  - components:
+    - layout_properties: {grid_position: ''}
+      name: label_23
+      properties: {align: center, bold: true, font_size: 50, italic: false, text: VOLLEYBALL SCOREBOARD}
+      type: Label
+    - components:
+      - layout_properties: {grid_position: 'LZVBHT,YMYBNS'}
+        name: back_3
+        properties: {align: right, text: Back to menu}
+        type: Button
+      - layout_properties: {grid_position: 'LYCZBL,YIXJRA'}
+        name: label_24
+        properties: {text: 'EDIT TEAM NAMES '}
+        type: Label
+      - layout_properties: {grid_position: 'ULQGRB,JCBBIA NLZSKW,XSMSMP'}
+        name: label_25
+        properties: {text: home team name}
+        type: Label
+      - layout_properties: {grid_position: 'ULQGRB,JCBBIA HNIXQL,JKQSKG'}
+        name: label_26
+        properties: {text: away team name}
+        type: Label
+      - layout_properties: {grid_position: 'ULQGRB,FCIVVU IBSIBK,QGJRJP'}
+        name: home_name_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'ULQGRB,FCIVVU IBSIBK,BFMIYR'}
+        name: home_save_name_button
+        properties: {background: 'theme:On Primary', text: SAVE}
+        type: Button
+      - layout_properties: {grid_position: 'ULQGRB,FCIVVU YPNBQF,SOTSLI'}
+        name: away_name_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'ULQGRB,FCIVVU YPNBQF,ANKQDP'}
+        name: away_save_name_button
+        properties: {background: 'theme:On Primary', text: SAVE}
+        type: Button
+      - layout_properties: {grid_position: 'CPTIJL,GLYPEE'}
+        name: label_27
+        properties: {text: TEAM STATS (Custom Statistic)}
+        type: Label
+      - layout_properties: {grid_position: 'NXUTXZ,AYUUUM UCFKFW,IGCEJE'}
+        name: label_28
+        properties: {text: Home Team Name (EAGLES)}
+        type: Label
+      - layout_properties: {grid_position: 'NXUTXZ,AYUUUM RAVJJA,JGFTVE'}
+        name: label_29
+        properties: {text: Away Team Name (SHARKS)}
+        type: Label
+      - layout_properties: {grid_position: 'NXUTXZ,IPLWMV PLNVED,DJPXKA'}
+        name: home_aces_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'NXUTXZ,IPLWMV PLNVED,FJBITH'}
+        name: home_team_stats_button
+        properties: {background: 'theme:On Primary', text: EDIT}
+        type: Button
+      - layout_properties: {grid_position: 'NXUTXZ,IPLWMV BDQJFS,ZRIHOZ'}
+        name: away_aces_box
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'NXUTXZ,IPLWMV BDQJFS,KOHATT'}
+        name: away_team_stats_button
+        properties: {background: 'theme:On Primary', text: EDIT}
+        type: Button
+      - layout_properties: {grid_position: 'QTZXDY,WKBODY'}
+        name: reset_button
+        properties: {text: RESET ALL DATA}
+        type: Button
+      layout_properties: {grid_position: ''}
+      name: column_panel_9
+      properties: {}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'ZBQTQT,YBZRZT'}
+    name: column_panel_8
+    properties: {background: 'theme:Primary Container'}
+    type: ColumnPanel
   layout_properties: {slot: default}
   name: content_panel
-  properties: {col_widths: '{}'}
+  properties: {background: '#fff5f5', col_widths: '{}'}
   type: ColumnPanel
 - layout_properties: {slot: nav-right}
   name: navbar_links
